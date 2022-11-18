@@ -1,0 +1,25 @@
+.startStopButton {
+  width: 240px;
+  height: 60px;
+  border: none;
+  border-radius: 5px;
+  font-size: 24px;
+  font-weight: 700;
+  background-color: var(--white);
+  cursor: pointer;
+  transition: color 0.2s ease-in-out;
+}
+
+.stopped {
+  box-shadow: 0 8px var(--grey);
+  transform: translateY(-8px);
+}
+
+.pomodoro {
+  color: var(--red);
+}
+
+.shortBreak,
+.longBreak {
+  color: var(--green);
+}

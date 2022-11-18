@@ -3,3 +3,19 @@
   margin: 0;
   box-sizing: border-box;
 }
+
+:root {
+  --white: #fdfdfd;
+  --grey: #ebebeb;
+  --red: #d95c5c;
+  --green: #46c095;
+}
+
+body {
+  color: var(--white);
+}
+
+body,
+button {
+  font-family: "Nunito", sans-serif;
+}
