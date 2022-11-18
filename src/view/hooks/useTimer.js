@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import alarm from "../../assets/sounds/alarm.mp3";
 import { timerTypes } from "../../constants/timerConstants";
 
-const defaultDuration = 25 * 60;
+const defaultDuration = 0.1 * 60;
 const defaultShortBreak = 5 * 60;
 const defaultLongBreak = 15 * 60;
 
